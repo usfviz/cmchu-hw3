@@ -1,5 +1,9 @@
 if("RColorBrewer" %in% rownames(installed.packages()) == FALSE) {install.packages("RColorBrewer")}
 if("scales" %in% rownames(installed.packages()) == FALSE) {install.packages("scales")}
+if("ggplot2" %in% rownames(installed.packages()) == FALSE) {install.packages("ggplot2")}
+if("ggvis" %in% rownames(installed.packages()) == FALSE) {install.packages("ggvis")}
+if("dplyr" %in% rownames(installed.packages()) == FALSE) {install.packages("dplyr")}
+if("reshape2" %in% rownames(installed.packages()) == FALSE) {install.packages("reshape2")}
 
 library(shiny)
 library(ggplot2)
